@@ -204,6 +204,18 @@ h3{
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+.project5{
+    width: 100%;
+    height: 300px;
+    background-image: url('../assets/images/projects/coworking.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+
+}
 .project-description{
     display: flex;
     justify-content: flex-start;
@@ -306,12 +318,13 @@ footer{
 
 .parrafo_foot {
     display: flex;
-	text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 10px;}
+    margin-top: 10px;
+	text-align: center;
+	}
 
 .icons {
     display: flex;
@@ -383,7 +396,7 @@ footer{
         padding: 5px;
         height: 80px;
     }
-    .project .project2 .project3{
+    .project .project2 .project3 .project5{
         height: 100px;
     }
     .icons-tech{
