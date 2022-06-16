@@ -336,7 +336,6 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-
 @media (max-width: 600px) {
     header{
     flex-direction: column;
@@ -362,6 +361,10 @@ footer{
         width: 100%;
         border-left: none;
         
+     }
+     .container p{
+        font-size: 13px;
+        margin: 10px 0px;
      }
      .container-p h3 {
         font-size: 14px;
