@@ -11,8 +11,8 @@ header{
     align-items: center;
 }
 .logo__img{
-    width: 300px;
-    height: 150px;
+    width: 220px;
+    height: 120px;
 }
 img{
     width: 100%;
@@ -148,7 +148,7 @@ a:hover{
     align-items: center;
     flex-direction: row;
     margin: 3rem;
-    border-left:  5px solid rgb(3, 3, 19);
+    border-left:  4px solid rgb(3, 3, 19);
 
 }
 .perfil{
@@ -357,8 +357,17 @@ footer{
         background-size: contain;
         background-repeat: no-repeat;}
     .container-p{
-        margin: 1rem;
+        margin: 5px;
+        padding: 0px;
+        width: 100%;
+        border-left: none;
         
+     }
+     .container-p h3 {
+        font-size: 14px;
+     }
+     .btn{
+        margin: 10px;
      }
     .perfil{
             width: 80px;
